@@ -1,0 +1,65 @@
+.intro {
+  max-width: 37em;
+  margin: 0 auto;
+
+
+  &__text {
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.24em;
+    letter-spacing: -1px;
+    text-align: justify;
+  }
+}
+
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 37.5em;
+  line-height: 1.5em;
+  align-items: center;
+  justify-content: center;
+  @include flex-grid(2, 2, 2, $pad: 0);
+  word-wrap: break-word;
+}
+
+.fonts {
+  color: #181818;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 42px;
+  line-height: 1.1em;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.garamond {
+  font-family: "adobe-garamond-pro",serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bodoni {
+  font-family: ltc-bodoni-175, serif;
+  font-weight: 400;
+}
+
+.century {
+  font-family: "century-old-style-std",serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.futura {
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.times {
+  font-family: Times;
+  font-style: normal;
+  font-weight: 400;
+}

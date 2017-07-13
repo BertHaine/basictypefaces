@@ -1,0 +1,16 @@
+<div class="section header">
+  <div class="intro">
+    <h1 class="intro__text">In the new computer age, the proliferation of typefaces and type manipulations represents a new level of visual pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and trash the rest. So come and see A Few Basic Typefaces</h1>
+  </div>
+</div>
+
+{% for item in site.data.data.typefaces %}
+<div class="section fonts {{ item.font | downcase }}">
+  <div class="intro">
+    <p>{{ item.font }}, {{ item.year }}</p>
+    <p>ABCDEFGHIKLMNOPQRSTVXYZ</p>
+    <p>abcdefghiklmnopqrstvxyz</p>
+    <p>1234567890</p>  
+  </div>
+</div>
+{% endfor %}

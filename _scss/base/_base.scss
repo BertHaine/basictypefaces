@@ -1,0 +1,22 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: 'liga' on;
+}
+
+body {
+  background-color: #E9E5D4;
+  font-family: serif, sans-serif;
+  font-size: 100%;
+  transition: background 1s ease;
+  color: #f3f3f3;
+  font-family: ltc-bodoni-175, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
