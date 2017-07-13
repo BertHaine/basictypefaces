@@ -1,2 +1,4 @@
 name: A Few Basic Typefaces
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+url: http://bertramhaine.com
+baseurl: ""
