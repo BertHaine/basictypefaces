@@ -75,41 +75,13 @@ body {
     line-height: 1.24em;
     letter-spacing: -1px;
     text-align: justify; }
-
-.about {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 37.5em;
-  line-height: 1.5em;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
-  list-style: none;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  word-wrap: break-word; }
-  .about > * {
-    padding: 0;
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-    max-width: 50%; }
-    @media (min-width: 32em) {
-      .about > * {
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
-        max-width: 50%; } }
-    @media (min-width: 65em) {
-      .about > * {
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
-        max-width: 50%; } }
+    @media (max-width: 40em) {
+      .intro__text {
+        font-size: 30px;
+        line-height: 1.35em; } }
+  @media (max-width: 40em) {
+    .intro {
+      max-width: 21em; } }
 
 .fonts {
   color: #181818;
@@ -118,7 +90,12 @@ body {
   font-size: 42px;
   line-height: 1.1em;
   font-style: normal;
-  font-weight: 700; }
+  font-weight: 700;
+  max-width: 37.5em; }
+  @media (max-width: 40em) {
+    .fonts {
+      font-size: 25px;
+      max-width: 18em; } }
 
 .garamond {
   font-family: "adobe-garamond-pro",serif;
